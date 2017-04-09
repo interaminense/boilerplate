@@ -2,7 +2,8 @@
   <img src="https://raw.githubusercontent.com/interaminense/boilerplate/master/utils/logo.png">
 </p>
 
-[![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md)
+[![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md) ![version](https://img.shields.io/badge/boilerplate-1.0-4278ff.svg)
+
 
 This **boilerplate** was built in order to aid in the process of creating static applications.
 
