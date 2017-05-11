@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/interaminense/boilerplate/master/utils/logo.png">
 </p>
 
-![version](https://img.shields.io/badge/boilerplate-1.0-4278ff.svg) [![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md) 
+![version](https://img.shields.io/badge/boilerplate-2.0-4278ff.svg) [![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md) 
 
 
 This **boilerplate** was built in order to aid in the process of creating static applications.
@@ -13,6 +13,13 @@ I use:
 * GulpJS
 * Sass
 * Browsersync
+* Babel (new v2.0)
+
+## Version 2.0
+
+* Improving Structure Folders
+* Adding babel to compile es6
+* Planning better gulpfile.js
 
 ## Getting Started
 
@@ -30,35 +37,33 @@ $ npm install --save-dev
 
 ```
 ├── README.md
-├── app
+├── src
 │   ├── css
-│   │   └── main.css
-│   ├── fonts
-│   ├── images
-│   ├── js
-│   │   ├── lib
-│   │   └── main.js
+│   │   └── app.min.css
 │   ├── scss
-│   │   ├── library
+│   │   ├── lib
 │   │   │   ├── components
-│   │   │   ├── settings
-│   │   │   │   ├── _app.scss
-│   │   │   │   ├── _colors.scss
-│   │   │   │   ├── _typography.scss
-│   │   │   │   └── _variables.scss
-│   │   ├── vendor
-│   │   └── main.scss
-│   ├── main.html
+|   |   |   |   └── _main.scss
+│   │   │   └── settings
+│   │   │       ├── _colors.scss
+│   │   │       ├── _typography.scss
+│   │   │       └── _variables.scss
+│   │   └── app.scss
+│   ├── js
+│   │   └── app.min.js
+|   ├── es6
+│   │   ├── lib
+│   │   └── app.js
+│   ├── index.html
 └── dist
     ├── css
-    │   └── style.min.css
+    │   └── app.min.css
     ├── js
-    │   └── main.min.js
-    └── main.min.js
+    │   └── app.min.js
+    └── index.html
 ```
 
 ## Tasks
 
 * `gulp`: start the project
-* `gulp clean:dist`: remove the folder dist
 * `gulp build`: build the folder dist
