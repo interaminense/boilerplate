@@ -67,3 +67,7 @@ $ npm install --save-dev
 
 * `npm run dev`: start the project in development mode
 * `npm run prod`: build and start the project in product mode
+
+## See also
+
+!['boilerplate using gulpjs + babel'](https://github.com/interaminense/boilerplate/tree/gulp-version)
