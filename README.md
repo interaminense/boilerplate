@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/interaminense/boilerplate/master/utils/logo.png">
+  <img src="https://raw.githubusercontent.com/interaminense/boilerplate/master/utils/logo-v2.png">
 </p>
 
-![version](https://img.shields.io/badge/boilerplate-2.0-4278ff.svg) [![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md) 
+![version](https://img.shields.io/badge/boilerplate-3.0-4278ff.svg) [![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md) 
 
 
 This **boilerplate** was built in order to aid in the process of creating static applications.

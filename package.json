@@ -1,26 +1,26 @@
 {
   "name": "boilerplate",
-  "version": "1.0.0",
-  "description": "",
+  "version": "3.0.0",
+  "description": "This boilerplate was built in order to aid in the process of creating static applications",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-preset-env": "^1.4.0",
-    "babelify": "^7.3.0",
-    "browser-sync": "^2.18.8",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-browserify": "^0.5.1",
-    "gulp-clean-css": "^3.2.0",
-    "gulp-js-minify": "0.0.3",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "run-sequence": "^1.2.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interaminense/boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "boilerplate",
+    "interaminense",
+    "boilerplate",
+    "webpack"
+  ],
+  "author": "Adriano Interaminense",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/interaminense/boilerplate/issues"
+  },
+  "homepage": "https://github.com/interaminense/boilerplate#readme"
 }
