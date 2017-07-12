@@ -9,21 +9,28 @@ This **boilerplate** was built in order to aid in the process of creating static
 
 I use:
 
-* NPM Scripts
-* GulpJS
-* Sass
-* Browsersync
-* Babel (new v2.0)
+* babel-core
+* babel-loader
+* babel-preset-es2015
+* css-loader
+* eslint
+* eslint-config-airbnb-base
+* eslint-plugin-import
+* extract-text-webpack-plugin
+* html-webpack-plugin
+* node-sass
+* sass-loader
+* style-loader
+* webpack
+* webpack-dev-server
 
-## Version 2.0
+## Version 3.0
 
-* Improving Structure Folders
-* Adding babel to compile es6
-* Planning better gulpfile.js
+* Boilerplate using webpack + babel
 
 ## Getting Started
 
-Install NodeJS and GulpJS
+Install NodeJS
 
 ```
 # Clone this repository
@@ -36,34 +43,27 @@ $ npm install --save-dev
 ## Folders and Files
 
 ```
+
 ├── README.md
-├── src
-│   ├── css
-│   │   └── app.min.css
-│   ├── scss
-│   │   ├── lib
-│   │   │   ├── components
-|   |   |   |   └── _main.scss
-│   │   │   └── settings
-│   │   │       ├── _colors.scss
-│   │   │       ├── _typography.scss
-│   │   │       └── _variables.scss
-│   │   └── app.scss
-│   ├── js
-│   │   └── app.min.js
-|   ├── es6
-│   │   ├── lib
-│   │   └── app.js
+├── app
+│   ├── components
+│   │   └── component.example.js
+│   ├── styles
+│   │   ├── config
+│   │   │   ├── colors.scss
+│   │   │   ├── mixins.scss
+│   │   │   ├── typography.scss
+│   │   │   └── variables.scss
+│   │   └── component.example.scss
 │   ├── index.html
-└── dist
-    ├── css
-    │   └── app.min.css
-    ├── js
-    │   └── app.min.js
-    └── index.html
+│   └── index.js
+├── webpack.config.js
+├── package.json
+└── package-lock.json
+
 ```
 
 ## Tasks
 
-* `gulp`: start the project
-* `gulp build`: build the folder dist
+* `npm run dev`: start the project in development mode
+* `npm run prod`: build and start the project in product mode
