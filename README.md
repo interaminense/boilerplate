@@ -70,4 +70,4 @@ $ npm install --save-dev
 
 ## See also
 
-['boilerplate using gulpjs + babel'](https://github.com/interaminense/boilerplate/tree/gulp-version)
+[boilerplate using gulpjs + babel](https://github.com/interaminense/boilerplate/tree/gulp-version)
