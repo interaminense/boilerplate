@@ -37,7 +37,7 @@ Install NodeJS
 $ git clone git@github.com:interaminense/boilerplate.git
 
 # install dependencies
-$ npm install --save-dev
+$ npm install
 ```
 
 ## Folders and Files
