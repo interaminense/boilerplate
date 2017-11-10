@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/interaminense/boilerplate/utils/utils/logo-v2.png">
 </p>
 
-![version](https://img.shields.io/badge/boilerplate-3.0-4278ff.svg) [![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md) 
+![version](https://img.shields.io/badge/boilerplate-3.0.1-4278ff.svg) [![license](https://img.shields.io/github/license/interaminense/boilerplate.svg)](./license.md) 
 
 
 This **boilerplate** was built in order to aid in the process of creating static applications.
@@ -24,9 +24,10 @@ I use:
 * webpack
 * webpack-dev-server
 
-## Version 3.0
+## Version 3.0.1
 
 * Boilerplate using webpack + babel
+* Removing unnecessary files making project start-up easier 
 
 ## Getting Started
 
@@ -49,11 +50,6 @@ $ npm install
 │   ├── components
 │   │   └── component.example.js
 │   ├── styles
-│   │   ├── config
-│   │   │   ├── colors.scss
-│   │   │   ├── mixins.scss
-│   │   │   ├── typography.scss
-│   │   │   └── variables.scss
 │   │   └── component.example.scss
 │   ├── index.html
 │   └── index.js
